@@ -2,3 +2,11 @@
     color: darkslategray;
     opacity: 1;
 }
+
+.logos {
+    justify-content: space-between center;
+}
+
+.logo {
+    height: 30px;
+}

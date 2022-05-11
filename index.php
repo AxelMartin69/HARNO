@@ -17,18 +17,12 @@
 <body class="grey lighten-5">
 	<div class="container">
 		<div class="row">
-			<a href='#'>
-				<div class="col s2 card-panel teal lighten-2 black-text center-align"><img src='' alt='EMLiit logo'></div>
-			</a>
-			<a href='#'>
-				<div class="col s2 card-panel teal lighten-2 black-text center-align"><img src='' alt='HARNO logo'></div>
-			</a>
-			<a href='#'>
-				<div class="col s2 card-panel teal lighten-2 black-text center-align"><img src='' alt='HTM logo'></div>
-			</a>
-			<a href='#'>
-				<div class="col s2 card-panel teal lighten-2 black-text center-align"><img src='' alt='SF logod'></div>
-			</a>
+			<img src="logos/EML logo vektoris-01.png" alt="EML logo" class="logo">
+			<img src="logos/Haridus- ja Noorteamet_3lovi_est_rgb.jpg" alt="HARNO logo" class="logo">
+			<img src="" alt="HTM logo">
+
+
+
 			<div class="col s2 offset-s2 card-panel teal lighten-2 center-align"><a href='index.php' class="black-text">EST</a> / <a href='rus.php' class="black-text">RUS</a></div>
 		</div>
 		<div class='row'>
@@ -40,14 +34,14 @@
 			</div>
 			<div class='col s6' id="pic"></div>
 		</div>
-		<div class='row'>
-			<img src='' alt='VOCO logo'>
-			<img src='' alt='IdaViru logo'>
-			<img src='' alt='Viljadi kutsekas logo'>
-			<img src='' alt='Pärnu kutsekas logo'>
-			<img src='' alt='Rakvere kutsekas logo'>
-			<img src='' alt='Võru kutsekas logo'>
-			<img src='' alt='Lasnamäe kutsekas logo'>
+		<div class='row logos'>
+			<img src='' alt='VOCO logo' class="logo">
+			<img src='logos/ivkhk_logo_uus.png' alt='IdaViru logo' class="logo">
+			<img src='logos/vikk100-web-logo.png' alt='Viljadi kutsekas logo' class="logo">
+			<img src='logos/pkhk-logo.png' alt='Pärnu kutsekas logo' class="logo">
+			<img src='logos/rakvere.jpg' alt='Rakvere kutsekas logo' class="logo">
+			<img src='logos/vorumaa-kutsehariduskeskus.png' alt='Võru kutsekas logo' class="logo">
+			<img src='logos/lasnamäe.jpg' alt='Lasnamäe kutsekas logo' class="logo">
 		</div>
 		<div class='row'>
 			<h6>Koostöös metallierialasid õpetavate kutsekoolidega piloteerime töökohapõhist profiõpet kolmel erialal. Palun anna meile oma huvist ja võimalikest eelistustest märku - milliste erialade proffide järelkasvu Sinu ettevõte täna ja tulevikus kõige olulisemaks peab?</h6>
