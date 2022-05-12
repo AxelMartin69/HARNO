@@ -8,5 +8,13 @@
 }
 
 .logo {
-    height: 30px;
+    height: 90px;
+}
+
+.logos2 {
+    justify-content: space-between;
+}
+
+.logo2 {
+    height: 90px;
 }

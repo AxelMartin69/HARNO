@@ -17,14 +17,22 @@
 <body class="grey lighten-5">
 	<div class="container">
 		<div class="row">
-			<img src="logos/EML logo vektoris-01.png" alt="EML logo" class="logo">
-			<img src="logos/Haridus- ja Noorteamet_3lovi_est_rgb.jpg" alt="HARNO logo" class="logo">
-			<img src="" alt="HTM logo">
+			<div class="col s4 left-align">
+				<img src="logos/image (1).png" alt="HTM logo" class="logo2">
+			</div>
+			<div class="col s4 center-align">
+				<img src="logos/EML logo vektoris-01.png" alt="EML logo" class="logo2">
+			</div>
+			<div class="col s4 right-align">
+				<img src="logos/Haridus- ja Noorteamet_3lovi_est_rgb.jpg" alt="HARNO logo" class="logo2">
+			</div>
 
 
-
-			<div class="col s2 offset-s2 card-panel teal lighten-2 center-align"><a href='index.php' class="black-text">EST</a> / <a href='rus.php' class="black-text">RUS</a></div>
+			
 		</div>
+		<div class="row center-align" style="background-color: #29306A; color: white; font: bold;">
+				<a href='index.php' class="white-text">EST</a> / <a href='rus.php' class="white-text">RUS</a>
+			</div>
 		<div class='row'>
 			<div class='col s6' id="text">
 				<h4>Oled hädas kvalifitseeritud tööjõu leidmisega ja järel-kasvu kindlustamisega?</h4>
@@ -35,7 +43,7 @@
 			<div class='col s6' id="pic"></div>
 		</div>
 		<div class='row logos'>
-			<img src='' alt='VOCO logo' class="logo">
+			<img src='logos/voco_logo-01.png' alt='VOCO logo' class="logo">
 			<img src='logos/ivkhk_logo_uus.png' alt='IdaViru logo' class="logo">
 			<img src='logos/vikk100-web-logo.png' alt='Viljadi kutsekas logo' class="logo">
 			<img src='logos/pkhk-logo.png' alt='Pärnu kutsekas logo' class="logo">
@@ -48,36 +56,36 @@
 		</div>
 		<div class='row'>
 			<div class='col s4 center-align'>
-				<img src=<?php echo "''"; ?> alt=<?php echo "'CNC'"; ?>>
+				<img src=''>
 				<br>
 				<br>
 				<label>
 					<input type="checkbox" class="filled-in checkbox-blue-grey" />
-					<span class="black-tetx"><?php echo 'CNC operaator'; ?></span>
+					<span class="black-tetx"></span>
 				</label>
 				<br>
 				<br>
 				<code>CNC operaatori profiõpe sisaldab metallilõikepinkide programmeerimist ja ka täpsust nõudvaid käelisi oskusi. Õppe käigus on võimalik spetsialiseeruda CNC treipingi või CNC freespingi operaatoriks. Õppe aluseks on CNC metallilõikepingi operaatori õppekava.</code>
 			</div>
 			<div class='col s4 center-align'>
-				<img src=<?php echo "''"; ?> alt=<?php echo "'Koostelukksepp'"; ?>>
+				<img src='' alt=''>
 				<br>
 				<br>
 				<label>
 					<input type="checkbox" class="filled-in" />
-					<span class="black-tetx"><?php echo 'Koostelukksepp'; ?></span>
+					<span class="black-text"></span>
 				</label>
 				<br>
 				<br>
 				<code>Koostelukksepa tööülesanded on toorikute ettevalmistamine, detailide mõõtmine, märkimine, töötlemine, puhastamine ning koostude koostamine ja reguleerimine. See eeldab jooniste lugemise oskust, masinaehitus-tehnoloogia ja kasutatavate materjalide tundmist.</code>
 			</div>
 			<div class='col s4 center-align'>
-				<img src=<?php echo "''"; ?> alt=<?php echo "'Keevitaja'"; ?>>
+				<img src='' alt=''>
 				<br>
 				<br>
 				<label>
 					<input type="checkbox" class="filled-in" />
-					<span class="black-tetx"><?php echo 'Keevitaja'; ?></span>
+					<span class="black-tetx"></span>
 				</label>
 				<br>
 				<br>
