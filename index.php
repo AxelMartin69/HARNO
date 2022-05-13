@@ -14,30 +14,56 @@
 	<title>Henno</title>
 </head>
 
+<?php
+
+// DATABASE
+
+function database($yks, $kaks, $kolm, $neli, $viis, $kuus, $seitse, $kaheksa) {
+	$servername = "localhost";
+	$username = "htv3";
+	$password = "8dV&%lVZ_3DH";
+	$dbname = "htv3_HARNO";
+
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname)	;
+	// Check connection
+	if ($conn->connect_error) {
+	  die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sql = "INSERT INTO ettevotte (ettevotte_nimi, vastuvotja, personaal_juhtimine, opib, pilootprogramm, mitunoort, kysimus, 'e-mail')
+	VALUES ($yks, $kaks, $kolm, $neli, $viis, $kuus, $seitse, $kaheksa)";
+
+	if ($conn->query($sql) === TRUE) {
+	  echo "Andmed edukalt sisestatud!";
+	} else {
+	  echo "Error: " . $sql . "<br>" . $conn->error;
+	}
+
+	$conn->close();
+};
 
 
-
+	
+?>
 
 <!-- Logod -->
 <body class="grey lighten-5">
 	<div class="container">
-		<div class="row">
-			<div class="col s4 left-align">
+		<div class="row1">
+			<div class="col s4">
 				<img src="logos/image (1).png" alt="HTM logo" class="logo2">
 			</div>
-			<div class="col s4 center-align">
+			<div class="col s4">
 				<img src="logos/EML logo vektoris-01.png" alt="EML logo" class="logo2">
 			</div>
-			<div class="col s4 right-align">
+			<div class="col s4">
 				<img src="logos/Haridus- ja Noorteamet_3lovi_est_rgb.jpg" alt="HARNO logo" class="logo2">
 			</div>
-
-
-			
-		</div>
-		<div class="row center-align" style="background-color: #29306A; color: white; font: bold;">
+		    <div class="lang"style="background-color: #29306A; color: white; font: bold;">
 				<a href='index.php' class="white-text">EST</a> / <a href='rus.php' class="white-text">RUS</a>
 			</div>
+		</div>
 		<div class='row'>
 			<div class='col s6' id="text">
 				<h4>Oled hädas kvalifitseeritud tööjõu leidmisega ja järel-kasvu kindlustamisega?</h4>

@@ -18,3 +18,14 @@
 .logo2 {
     height: 90px;
 }
+
+.row1 {
+    width: 33.33%;
+    padding: 5px;
+    display: flex;
+}
+
+.lang {
+    position: absolute;
+    right: 150px;
+}
