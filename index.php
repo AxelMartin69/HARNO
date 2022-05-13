@@ -13,6 +13,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title>Henno</title>
 </head>
+
+
+
+
+
 <!-- Logod -->
 <body class="grey lighten-5">
 	<div class="container">
@@ -61,7 +66,7 @@
 				<br>
 				<label>
 					<input type="checkbox" class="filled-in checkbox-blue-grey" />
-					<span class="black-tetx"></span>
+					<span class="black-tetx">CNC operaator</span>
 				</label>
 				<br>
 				<br>
@@ -73,7 +78,7 @@
 				<br>
 				<label>
 					<input type="checkbox" class="filled-in" />
-					<span class="black-text"></span>
+					<span class="black-text">Koostelukksepp</span>
 				</label>
 				<br>
 				<br>
@@ -85,15 +90,14 @@
 				<br>
 				<label>
 					<input type="checkbox" class="filled-in" />
-					<span class="black-tetx"></span>
+					<span class="black-tetx">Keevitaja</span>
 				</label>
 				<br>
 				<br>
 				<code>Keevitaja valmistab detaile ja kooste, kasutades erinevaid keevitusseadmeid, lähtudes tööjoonisest, töötlemistehnoloogiatest, tööprotsessidest, töövahenditest ja töödeldavatest materjalidest.</code>
-
 			</div>
-
 		</div>
+		
 		<div class='row'>
 			<h5 class="col s6">Või hoopis mõni muu eriala?</h5>
 			<div class="input-field col s6">
@@ -113,6 +117,7 @@
 			</div>
 			<div class='pic'></div>
 		</div>
+
 <!-- input query -->
 		<div class='row'>
 			<div class="input-field">
@@ -155,15 +160,15 @@
 					Küll aga saavad kiiremad ja suurema motivatsiooniga ettevõtted teiste ees olulise eelise – just nende
 					hulgast valitakse välja esimesed profiõppe pilootprogrammis osalejad. Huvilistega võtame täiendava info
 					ja tingimuste läbirääkimisteks eraldi ühendust.</p>
+			</div>
 		</div>
-
+		
 		<div class='row'>
 			<div class='text'>
 				<p></p>
 			</div>
 		</div>
 	</div>
-
 
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
