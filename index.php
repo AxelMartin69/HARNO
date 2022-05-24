@@ -15,7 +15,7 @@
 </head>
 
 <?php
-	require 'db.php';
+	// require 'db.php';
 ?>
 
 <!-- Logod -->
@@ -104,15 +104,15 @@
 		</div>
 
 		<div class='row'>
-			<div class='text'>
-				<h1>Kui hästi profiõpe Sinu ettevõttele sobida võiks?</h1>
+			<div class='col s6' id='pic'></div>
+			<div class='col s6' id='text'>
+				<h3><b>Kui hästi profiõpe Sinu ettevõttele sobida võiks</b></h3>
 				<p>Palun jaga meiega lisainfot oma ettevõtte
 					tausta ja vajaduste kohta, et saaksime
 					hinnata uue loodava profiõppe mudeli
 					sobivust Sinu ettevõttesse uute
 					professionaalsete töötajate koolitamiseks.</p>
 			</div>
-			<div class='pic'></div>
 		</div>
 
 <!-- input query -->
@@ -161,12 +161,22 @@
 		</div>
 		
 		<div class='row'>
-			<div class='text'>
-				<p></p>
+			<div class='col s8 offset-s2 center-align' id='text'>
+				<p>Profiõppe pilootprogrammi väljatöötamist korraldab Haridus- ja Noorteamet koostöös Eesti Masinatööstuse Liiduga, Haridus- ja Teadusministeeriumiga ja kutsekoolidega.</p>
+				<p><a href="mailto:eveli.laats@etag.ee">kontakt: eveli.laats@etag.ee</a></p>
 			</div>
 		</div>
+		<div class='row logos'>
+			<img src='logos/voco_logo-01.png' alt='VOCO logo' class="logo">
+			<img src='logos/ivkhk_logo_uus.png' alt='IdaViru logo' class="logo">
+			<img src='logos/vikk100-web-logo.png' alt='Viljadi kutsekas logo' class="logo">
+			<img src='logos/pkhk-logo.png' alt='Pärnu kutsekas logo' class="logo">
+			<img src='logos/rakvere.jpg' alt='Rakvere kutsekas logo' class="logo">
+			<img src='logos/vorumaa-kutsehariduskeskus.png' alt='Võru kutsekas logo'class="logo">
+			<img src='logos/lasnamäe.jpg' alt='Lasnamäe kutsekas logo' class="logo">
+		</div>
 	</div>
-
+	
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
